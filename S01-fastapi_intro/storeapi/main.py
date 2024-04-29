@@ -6,3 +6,4 @@ app = FastAPI()
 
 app.include_router(post_router)
 # app.include_router(post_router, prefix="/posts")
+# app.include_router(post_router, prefix="/v1")
